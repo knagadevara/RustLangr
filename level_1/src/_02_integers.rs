@@ -1,5 +1,5 @@
 pub fn demo_integers(){
-  //let a1: i32 = -1234;
+  let _a1: i32 = -1234; // unused variable should start with '_'
   let age: u8 = 25;
   let year: u16 = 2001;
   let hex_num: i32 = 0xFFFF;
