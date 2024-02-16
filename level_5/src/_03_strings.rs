@@ -99,7 +99,12 @@ pub fn do_it() {
         &some_word[4..7]
     );
 
-    // string_1();
-    // string_2();
-    // println!("_S_1 from main\nValue: {} - Lenght: {} - FirstByte: {:p}",_S_1, _S_1.len(), _S_1.as_ptr());
+    string_1();
+    string_2();
+    println!(
+        "_S_1 from main\nValue: {} - Lenght: {} - FirstByte: {:p}",
+        _S_1,
+        _S_1.len(),
+        _S_1.as_ptr()
+    );
 }
